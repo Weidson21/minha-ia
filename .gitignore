@@ -1,0 +1,92 @@
+# Ambientes virtuais Python
+
+.venv/
+venv/
+env/
+ENV/
+
+# Cache e arquivos compilados do Python
+
+pycache/
+*.py[cod]
+*$py.class
+
+# Variáveis de ambiente e credenciais
+
+.env
+.env.*
+!.env.example
+
+# Chaves privadas e certificados
+
+*.pem
+*.key
+
+# Configurações de editores e IDEs
+
+.vscode/
+.idea/
+
+# Arquivos temporários e logs
+
+*.log
+logs/
+*.tmp
+*.bak
+
+# Testes e cobertura
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Distribuição e pacotes Python
+
+build/
+dist/
+*.egg-info/
+
+# Cache de ferramentas de qualidade de código
+
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# Sistema operacional
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Checkpoints e pesos de modelos
+
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Cache de modelos e bibliotecas de IA
+
+.cache/
+huggingface_cache/
+
+# Dados locais e datasets
+
+data/raw/
+data/interim/
+data/processed/
+
+# Bancos de dados locais
+
+*.sqlite
+*.sqlite3
+*.db
+
+# Arquivos de backup
+
+*~
+*.swp
+*.swo
